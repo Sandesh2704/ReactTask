@@ -1,0 +1,57 @@
+.loading{
+  font-size: 40px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.App{
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+h1{
+  font-size: 5rem;
+}
+
+.curreny-table{
+  display: flex;
+  justify-content: center;
+}
+
+
+ .exchange-table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.exchange-table th,
+.exchange-table td {
+   border: 2px solid #c3c3c3; 
+  text-align: left;
+  padding: 10px 8px;
+  font-size: 20px;
+}
+
+.exchange-table th {
+  font-size: 25px;
+  padding: 15px 8px ;
+}
+.exchange-table .even-row {
+  background-color: #4e0261;
+}
+ .exchange-table .odd-row {
+  background-color: transparent;
+}
+@media only screen and (max-width:600px) {
+  .exchange-table {
+    width: 90%; 
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  .App{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+}
